@@ -1,0 +1,16 @@
+{
+    "appearance": {
+        "transparency": {
+            "base": 0.847588227691429,
+            "enabled": true,
+            "layers": 0.8457173096943318
+        }
+    },
+    "background": {
+        "desktopClock": {
+            "background": {
+                "enabled": false
+            }
+        }
+    }
+}
