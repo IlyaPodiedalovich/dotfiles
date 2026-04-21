@@ -3,8 +3,8 @@ function dotfiles-save
         echo "Использование: dotfiles-save 'описание изменения'"
         return 1
     end
-    chezmoi add --recursive ~/.config
-    chezmoi cd
+    chezmoi re-add
+    cd ~/.local/share/chezmoi
     git add -A
     git commit -m $argv[1]
     git push
